@@ -1,0 +1,48 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            "tab"
+        ],
+        // "linebreak-style": [
+        //     "error",
+        //     "windows"
+        // ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+        "react/jsx-filename-extension": [1, {
+            "extensions": [".js", ".jsx"]
+        }], // 允许使用js/jsx文件扩展
+        "react/sort-comp": "off", // 关闭sort
+        "react/no-array-index-key": "off", // 允许使用index作为List的key
+        "no-unused-expressions": "off", // 允许三元表达式
+        "import/no-unresolved": "off", // 允许require image
+        "react/no-multi-comp": "off", // 允许一个文件定义多个组件
+        "react/display-name": "off", // 不需要给组件定义displayName
+    }
+}
