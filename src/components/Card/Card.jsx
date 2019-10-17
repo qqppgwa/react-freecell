@@ -4,7 +4,9 @@ import styles from './Card.module.scss'
 // import { connect } from 'react-redux'
 
 const Card = props => {
-  return <div className={styles.card}></div>
+  // console.log(card)
+  let src = require(`../../assets/cards/${props.card.type}_${(props.card.id % 13) + 1}.png`)
+  return <div className={styles.card} style={{ backgroundImage: `url(${src})`, top: 40 * props.index + 'px' }}></div>
 }
 // const mapStateToProps = state => {
 //   //read

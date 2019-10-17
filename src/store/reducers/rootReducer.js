@@ -3,9 +3,21 @@ import {
 } from '../actions/rootActions';
 let cards = []
 for (let i = 1; i < 53; i++) {
+    const type = (i) => {
+        let no = Math.ceil(i / 13)
+        if (no === 1) {
+            return 'spade'
+        } else if (no === 2) {
+            return 'heart'
+        } else if (no === 3) {
+            return 'club'
+        } else if (no === 4) {
+            return 'diamond'
+        }
+    }
     let obj = {
         id: i,
-        type: Math.ceil(i / 13), //1: spade 2: heart 3:club 4:diamond
+        type: type(i), //1: spade 2: heart 3:club 4:diamond
         dragable: false,
         now: 3 //現在位置  1:左上 2:右上 3:下面;
     }
