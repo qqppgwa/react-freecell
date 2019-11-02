@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-freecell/static/css/main.7984bdef.chunk.css",
+    "main.js": "/react-freecell/static/js/main.3a3ba1f6.chunk.js",
+    "main.js.map": "/react-freecell/static/js/main.3a3ba1f6.chunk.js.map",
+    "runtime-main.js": "/react-freecell/static/js/runtime-main.113b4abb.js",
+    "runtime-main.js.map": "/react-freecell/static/js/runtime-main.113b4abb.js.map",
+    "static/js/2.aace2cc9.chunk.js": "/react-freecell/static/js/2.aace2cc9.chunk.js",
+    "static/js/2.aace2cc9.chunk.js.map": "/react-freecell/static/js/2.aace2cc9.chunk.js.map",
+    "index.html": "/react-freecell/index.html",
+    "precache-manifest.9047911f3cff924f3b1e0dda8149bf95.js": "/react-freecell/precache-manifest.9047911f3cff924f3b1e0dda8149bf95.js",
+    "service-worker.js": "/react-freecell/service-worker.js",
+    "static/css/main.7984bdef.chunk.css.map": "/react-freecell/static/css/main.7984bdef.chunk.css.map",
+    "static/media/index.css": "/react-freecell/static/media/bg-all.903e94a6.png",
+    "static/media/club_11.png": "/react-freecell/static/media/club_11.99039dbe.png",
+    "static/media/club_12.png": "/react-freecell/static/media/club_12.35cea76e.png",
+    "static/media/club_13.png": "/react-freecell/static/media/club_13.62878c8b.png",
+    "static/media/diamond_11.png": "/react-freecell/static/media/diamond_11.e713937b.png",
+    "static/media/diamond_12.png": "/react-freecell/static/media/diamond_12.b0a8a1a3.png",
+    "static/media/diamond_13.png": "/react-freecell/static/media/diamond_13.5f124f05.png",
+    "static/media/heart_11.png": "/react-freecell/static/media/heart_11.c9c8ef0e.png",
+    "static/media/heart_12.png": "/react-freecell/static/media/heart_12.be3296c4.png",
+    "static/media/heart_13.png": "/react-freecell/static/media/heart_13.7ea88201.png",
+    "static/media/spade_11.png": "/react-freecell/static/media/spade_11.c1e2e178.png",
+    "static/media/spade_12.png": "/react-freecell/static/media/spade_12.9c935ab9.png",
+    "static/media/spade_13.png": "/react-freecell/static/media/spade_13.3e016a3a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.113b4abb.js",
+    "static/js/2.aace2cc9.chunk.js",
+    "static/css/main.7984bdef.chunk.css",
+    "static/js/main.3a3ba1f6.chunk.js"
+  ]
+}
