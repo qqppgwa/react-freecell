@@ -2,8 +2,8 @@ import {
     MOVE_CARD,
 } from '../actions/rootActions';
 let cards = []
-for (let i = 1; i < 53; i++) {
-    const type = (i) => {
+for (let i = 1; i <= 52; i++) {
+    const typeCard = (i) => {
         let no = Math.ceil(i / 13)
         if (no === 1) {
             return 'spade'
@@ -17,7 +17,7 @@ for (let i = 1; i < 53; i++) {
     }
     let obj = {
         id: i,
-        type: type(i), //1: spade 2: heart 3:club 4:diamond
+        type: typeCard(i), //1: spade 2: heart 3:club 4:diamond
         dragable: false,
         now: 3 //現在位置  1:左上 2:右上 3:下面;
     }
@@ -47,9 +47,9 @@ shuffle(cards)
 let newList = []
 for (let i = 0; i < cards.length; i += 6) {
     let a = cards.slice(i, i + 6)
-    console.log(a)
+    // console.log(a)
     if (a.length < 6) {
-        console.log(newList)
+        // console.log(newList)
         // newList = a.map((el, idx) => {
         //   return newList[idx].concat(el)
         // })
@@ -60,13 +60,28 @@ for (let i = 0; i < cards.length; i += 6) {
         newList.push(a)
     }
 }
-console.log(newList)
+// console.log(newList)
 
 
 
 
-const initialCard =
-    newList;
+const initialCard = {
+    left: [
+        [],
+        [],
+        [],
+        []
+    ],
+    right: [
+        [],
+        [],
+        [],
+        []
+    ],
+    bottom: newList
+}
+
+;
 const rootReducerCard = (state = initialCard, {
     type,
     payload
@@ -74,7 +89,7 @@ const rootReducerCard = (state = initialCard, {
     switch (type) {
         case MOVE_CARD:
             return {
-                newList
+                ...state
 
             };
 

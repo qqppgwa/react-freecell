@@ -19,8 +19,12 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import App from './App'
-import { Provider } from 'react-redux'
-import { store } from './store/index.js'
+import {
+  Provider
+} from 'react-redux'
+import {
+  store
+} from './store/index.js'
 // import registerServiceWorker from './registerServiceWorker';
 // let cards = []
 // for (let i = 1; i < 53; i++) {
@@ -32,11 +36,14 @@ import { store } from './store/index.js'
 //   cards.push(obj);
 // }
 // console.log(cards)
-ReactDOM.render(
-  <Provider store={store}>
-    {' '}
-    {/* <Router path="/" exact component={App} /> */} <App />
-  </Provider>,
+ReactDOM.render( <
+  Provider store = {
+    store
+  } >
+  <
+  App / >
+  <
+  /Provider>,
   document.getElementById('root')
 )
 serviceWorker.unregister()
