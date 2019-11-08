@@ -18,8 +18,6 @@ for (let i = 1; i <= 52; i++) {
     let obj = {
         id: i,
         type: typeCard(i), //1: spade 2: heart 3:club 4:diamond
-        dragable: false,
-        now: 3 //現在位置  1:左上 2:右上 3:下面;
     }
     cards.push(obj);
 }

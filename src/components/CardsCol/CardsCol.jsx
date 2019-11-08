@@ -13,7 +13,7 @@ const CardsCol = props => {
   // }, [])
   // console.log(props)
   let c = []
-  let loc, col, place
+  let loc
   // console.log(props)
   // let getC = (c, p) => {
   //   // console.log(c)

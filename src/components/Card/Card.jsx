@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import styles from './Card.module.scss'
 
 // import { connect } from 'react-redux'
 
 const Card = props => {
   // console.log(props)
-  const [top, setTop] = useState(0)
-  useEffect(() => {
-    setTop(40 * props.index + 'px')
-  }, [])
+  // const [top, setTop] = useState(0)
+  // useEffect(() => {
+  //   setTop(40 * props.index + 'px')
+  // }, [])
   let src
 
   if (props.card.type) {
@@ -30,7 +30,7 @@ const Card = props => {
   }
   return (
     <div onDragStart={dragStart} onDragEnd={dragEnd}>
-      <img className={styles.card} style={{ top: props.loc === 'bottom' ? top : '' }} src={src ? src : ''} alt={props.card.type + (props.card.id % 13 === 0 ? 13 : props.card.id % 13)} draggable={props.drag} />
+      <img className={styles.card} style={{ top: props.loc === 'bottom' ? 40 * props.index + 'px' : '' }} src={src ? src : ''} alt={props.card.type + (props.card.id % 13 === 0 ? 13 : props.card.id % 13)} draggable={props.drag} />
     </div>
   )
 }
