@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-freecell/static/css/main.7984bdef.chunk.css",
-    "main.js": "/react-freecell/static/js/main.3a3ba1f6.chunk.js",
-    "main.js.map": "/react-freecell/static/js/main.3a3ba1f6.chunk.js.map",
+    "main.js": "/react-freecell/static/js/main.1d54dd47.chunk.js",
+    "main.js.map": "/react-freecell/static/js/main.1d54dd47.chunk.js.map",
     "runtime-main.js": "/react-freecell/static/js/runtime-main.113b4abb.js",
     "runtime-main.js.map": "/react-freecell/static/js/runtime-main.113b4abb.js.map",
-    "static/js/2.aace2cc9.chunk.js": "/react-freecell/static/js/2.aace2cc9.chunk.js",
-    "static/js/2.aace2cc9.chunk.js.map": "/react-freecell/static/js/2.aace2cc9.chunk.js.map",
+    "static/js/2.7429a4db.chunk.js": "/react-freecell/static/js/2.7429a4db.chunk.js",
+    "static/js/2.7429a4db.chunk.js.map": "/react-freecell/static/js/2.7429a4db.chunk.js.map",
     "index.html": "/react-freecell/index.html",
-    "precache-manifest.9047911f3cff924f3b1e0dda8149bf95.js": "/react-freecell/precache-manifest.9047911f3cff924f3b1e0dda8149bf95.js",
+    "precache-manifest.2c3fd1775b812601c9b5ec0b516c3227.js": "/react-freecell/precache-manifest.2c3fd1775b812601c9b5ec0b516c3227.js",
     "service-worker.js": "/react-freecell/service-worker.js",
     "static/css/main.7984bdef.chunk.css.map": "/react-freecell/static/css/main.7984bdef.chunk.css.map",
     "static/media/index.css": "/react-freecell/static/media/bg-all.903e94a6.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.113b4abb.js",
-    "static/js/2.aace2cc9.chunk.js",
+    "static/js/2.7429a4db.chunk.js",
     "static/css/main.7984bdef.chunk.css",
-    "static/js/main.3a3ba1f6.chunk.js"
+    "static/js/main.1d54dd47.chunk.js"
   ]
 }
