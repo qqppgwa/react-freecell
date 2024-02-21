@@ -1,4 +1,12 @@
+Freecell game, for practicing react.js in 2019 
+
 demo link : https://qqppgwa.github.io/react-freecell
+
+
+
+https://github.com/qqppgwa/react-freecell/assets/36188868/131c4ff7-751e-4c94-88b4-1d513bde8a0e
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
